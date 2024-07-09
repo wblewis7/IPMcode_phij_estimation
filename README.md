@@ -10,7 +10,11 @@ Contact: william.lewis27@uga.edu
 
 # S.GA.NOBO.IPM.data.simple.gzip
 Data for running the integrated population model are stored in this gzip file. Demographic data was collected from a population of northern bobwhites (Colinus virginianus) in southern Georgia, USA, from 1998 - 2022. There are four main data sources used in the model: 
-1) radiotelemetry data for estimating survival, 2) nest monitoring data for estimating breeding productivity, 3) post-breeding population surveys, and 4) age/sex ratio of post-breeding harvested birds.
+1) radiotelemetry data for estimating survival
+2) nest monitoring data for estimating breeding productivity
+3) post-breeding population surveys
+4) age/sex ratio of post-breeding harvested birds.
+   
 ## nyears
 The number of years of data (25).
 ## years
@@ -31,12 +35,12 @@ Rows correspond to years while columns correspond to breeding months.
 The number of adult females from which the productivity data (chicks.nest.mean and chicks.nest.sd) was collected. Data is structured by year (rows) and breeding month June - September (columns).
 ## count
 Total number of calling bobwhite coveys (aggregations of bobwhites in the fall) detected in each year of the study. Covey counts were performed using a 4-person quadrat sampling method.
-# effort
+## effort
 Covey count surveys occurred at a variable portion of the total study area in each year.
-# csize.mean, csize.sd, csize.min, csize.max
+## csize.mean, csize.sd, csize.min, csize.max
 Covey counts were related to population abundance through estimating average covey size. In each year, a subset of detected coveys were flushed to count size. The mean size (csize.mean) and sd (csize.sd) of flushed coveys is given for each year, while csize.min and 
 csize.max give the 2.5% and 97.5% quantiles of observed covey sizes across the entire study duration.
-# avail.mean, avail.sd, avail.min, avail.max, pdet_mean, pdet_sd, pdet_min
+## avail.mean, avail.sd, avail.min, avail.max, pdet_mean, pdet_sd, pdet_min
 The detection process was decomposed into calling availability (probability that covey was within survey area and calling during survey) and conditional detection (probability of at least one of four observers detecting a covey conditional on it being available). No 
 covariates were collected to model these processes so we used informative priors. Minimum, maximum, and yearly mean and sd of availability (logit scale) are given by avail.min, avail.max, avail.mean, and avail.sd, respectively. Values were generated based on observed
 neighbor density in each year (covey count - 1) and coefficients in Wellendorf, S. D., W. E. Palmer, and P. T. Bromley (2004). Estimating calling rates of northern bobwhite coveys and measuring abundance. Mean, sd, and min values of conditional detection probability (logit
