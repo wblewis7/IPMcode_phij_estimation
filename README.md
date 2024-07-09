@@ -9,7 +9,7 @@ Contact: william.lewis27@uga.edu
 # Metadata
 
 # S.GA.NOBO.IPM.data.simple.gzip
-Data for running the integrated population model are stored in this gzip file. Demographic data were collected from a population of northern bobwhites in southern Georgia, USA, from 1998 - 2022. There are four main data sources used in the model: 
+Data for running the integrated population model are stored in this gzip file. Demographic data were collected from a population of northern bobwhites (Colinus virginianus) in southern Georgia, USA, from 1998 - 2022. There are four main data sources used in the model: 
 1) radiotelemetry data for estimating survival
 2) nest monitoring data for estimating breeding productivity
 3) post-breeding population surveys
@@ -66,7 +66,7 @@ The number of active tracking periods for each bird. Corresponds to the length o
 <br />
 
 # S.GA.NOBO.IPM.Simple.Code.R
-R code for running the integrated population model using demographic data from northern bobwhites (Colinus virginianus). The model is female-specific and structured by age (juvenile, subadult, or adult), season (breeding (June - September) or non-breeding (October -
+R code for running the integrated population model using demographic data from northern bobwhites. The model is female-specific and structured by age (juvenile, subadult, or adult), season (breeding (June - September) or non-breeding (October -
 March)), and year. Adult survived each month based on the breeding-season survival rate. Juveniles enter the population in each month June - September based on the number of surviving adults and the monthly per-capita productivity rates. Juveniles survive until the 
 non-breeding season based on the juvenile survival rate, after which they transition to subadults. Subadults and adults survive through the non-breeding season based on the age-specific non-breeding survival rate, with subadults transitioning to adults at the start of
 the breeding season in April. Vital rates vary yearly based on a Normal distribution with a global mean and standard deviation.
