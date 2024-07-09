@@ -7,6 +7,7 @@
 ##    Sisson, and James A. Martin. 2024. Use of breeding and post-breeding data
 ##    to estimate juvenile survival with integrated population models. International
 ##    Statistical Ecology Conference.
+## Contact: william.lewis27@uga.edu
 ##############################################################################
 
 require(parallel)
