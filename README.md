@@ -1,5 +1,5 @@
 # IPMcode_phij_estimation
-Data and R/NIMBLE code for running integrated population model inferring juveniles survival from breeding productivity and post-breeding population abundance and age/sex ratio data. William B. Lewis, Chloe R. Nater, Justin A. Rectenwald, D. Clay Sisson, and James A. Martin.
+Data and R/NIMBLE code for running an integrated population model inferring juveniles survival from breeding productivity and post-breeding population abundance and age/sex ratio data. William B. Lewis, Chloe R. Nater, Justin A. Rectenwald, D. Clay Sisson, and James A. Martin.
 2024. Use of breeding and post-breeding data to estimate juvenile survival with integrated population models. International Statistical Ecology Conference.
 Contact: william.lewis27@uga.edu
 
