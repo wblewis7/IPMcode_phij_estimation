@@ -28,7 +28,7 @@ The number of adult females (AF), first-year females (JF), and males (M) harvest
 ## Harv.N
 The total number of harvested birds in November of each year. Equal to row sums of Harv.sexage.
 ## chicks.nest.mean and chicks.nest.sd
-Nests were monitored each month of the breeding season (June - September) to determine the nest success and number of chicks hatched. A small number of nests were labeled as successful but did not have data recorded on the number of chicks produced. We estimated the number
+Nests were monitored each month of the breeding season (June - September) to determine nest success and number of chicks hatched. A small number of nests were labeled as successful but did not have data recorded on the number of chicks produced. We estimated the number
 of chicks hatched from these nests based on the clutch size and the average hatch rate for a given month/year. The mean and standard deviation of these posterior distribution of total number of chicks produced are given in chicks.nest.mean and chicks.nest.sd, respectively. 
 Rows correspond to years while columns correspond to breeding months.
 ## N.tracked
