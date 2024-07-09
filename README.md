@@ -67,7 +67,7 @@ The number of active tracking periods for each bird. Corresponds to the length o
 
 # S.GA.NOBO.IPM.Simple.Code.R
 R code for running the integrated population model using demographic data from northern bobwhites. The model is female-specific and structured by age (juvenile, subadult, or adult), season (breeding (June - September) or non-breeding (October -
-March)), and year. Adult survived each month based on the breeding-season survival rate. Juveniles enter the population in each month June - September based on the number of surviving adults and the monthly per-capita productivity rates. Juveniles survive until the 
+March)), and year. Adults survive each month during the breeding season based on the breeding-season survival rate. Juveniles enter the population in each month June - September based on the number of surviving adults and the monthly per-capita productivity rates. Juveniles survive until the 
 non-breeding season based on the juvenile survival rate, after which they transition to subadults. Subadults and adults survive through the non-breeding season based on the age-specific non-breeding survival rate, with subadults transitioning to adults at the start of
 the breeding season in April. Vital rates vary yearly based on a Normal distribution with a global mean and standard deviation.
 Survival of subadults and adults were assessed throughout the year via radiotelemetry. Monthly per-capita productivity rates were assessed each month June - September from nest monitoring data. The model incorporates uncertainty in the total number of chicks produced
