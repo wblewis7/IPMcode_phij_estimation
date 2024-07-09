@@ -32,7 +32,7 @@ Nests were monitored each month of the breeding season (June - September) to det
 of chicks hatched from these nests based on the clutch size and the average hatch rate for a given month/year. The mean and standard deviation for the posterior distributions of total number of chicks produced are given in chicks.nest.mean and chicks.nest.sd, respectively. 
 Rows correspond to years while columns correspond to breeding months.
 ## N.tracked
-The number of adult females from which the productivity data (chicks.nest.mean and chicks.nest.sd) was collected. Data is structured by year (rows) and breeding month June - September (columns).
+The number of adult females from which the productivity data (chicks.nest.mean and chicks.nest.sd) were collected. Data are structured by year (rows) and breeding month June - September (columns).
 ## count
 Total number of calling bobwhite coveys (aggregations of bobwhites in the fall) detected in each year of the study. Covey counts were performed using a 4-person quadrat sampling method.
 ## effort
