@@ -56,7 +56,7 @@ Vector giving the year of the study for every tracking occasion (columns of CH.s
 ## nCH
 Number of birds with telemetry data (number of rows in CH.state and CH.age).
 ## trackdates
-Matrix giving, for each bird (rows), the columns from CH.state which have active tracking data. Excludes the first tracking column from CH.state, as this is the release date. A small number birds were tracked until radio failure, caught in a subsequent year, and were 
+Matrix giving, for each bird (rows), the columns from CH.state which have active tracking data. Excludes the first tracking column from CH.state, as this is the release date. A small number of birds were tracked until radio failure, caught in a subsequent year, and were 
 redployed with another transmitter.
 ## trackperiods
 The number of active tracking periods for each bird. Corresponds to the length of non-NA values in each row of trackdates.
