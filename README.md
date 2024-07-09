@@ -9,7 +9,7 @@ Contact: william.lewis27@uga.edu
 # Metadata
 
 # S.GA.NOBO.IPM.data.simple.gzip
-Data for running the integrated population model are stored in this gzip file. Demographic data was collected from a population of northern bobwhites in southern Georgia, USA, from 1998 - 2022. There are four main data sources used in the model: 
+Data for running the integrated population model are stored in this gzip file. Demographic data were collected from a population of northern bobwhites in southern Georgia, USA, from 1998 - 2022. There are four main data sources used in the model: 
 1) radiotelemetry data for estimating survival
 2) nest monitoring data for estimating breeding productivity
 3) post-breeding population surveys
